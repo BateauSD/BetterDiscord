@@ -68,3 +68,8 @@
 .guilds-wrapper .guilds .guild .guild-inner, .guilds-wrapper .guilds .guild .guild-inner:hover {
  background: none !important;
 }
+div.guild-separator::after {
+    background: none;
+    border-bottom: 2px solid #f28044;
+    border-top: 2px solid #f28044;
+}
